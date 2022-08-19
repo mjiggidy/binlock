@@ -11,6 +11,8 @@ $ python3 binlock.py CustomText /output/path.lck
 ```
 ...where `CustomText` is the text you would like displayed, and `/output/path.lck` is the filename of the lock you would like to create.
 
+If `CustomText` is set to a username that exists in your Avid environment, the lock will simply belong to that user until they open and close the bin.  But if `CustomText` is set to something *else* -- like a passive-aggressive message, for example -- the bin will be "permanently" locked until the `.lck` file is manually removed.
+
 ### Fancy Usage
 
 `binlock` will always ensure the file extension is `.lck`, no matter what is specified in the output path.  Because of this, a more intuitive way to use `binlock` is to provide the path to the Avid bin (`.avb`) itself -- by simply dragging it into the terminal window -- and an accompanying `.lck` file will be created with the same name as the bin.  For example:
