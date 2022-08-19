@@ -7,7 +7,7 @@
 ### Basic Usage
 `binlock` is intended to be run via the command line:
 ```bash
-python3 binlock.py CustomText /output/path.lck
+$ python3 binlock.py CustomText /output/path.lck
 ```
 ...where `CustomText` is the text you would like displayed, and `/output/path.lck` is the filename of the lock you would like to create.
 
