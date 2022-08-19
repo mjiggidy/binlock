@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
 """
-makelock.py
+binlock.py
 Create an Avid bin lock (.lck) file with a custom display name
 By Michael Jordan <michael@glowingpixel.com>
 
-Usage: makelock.py LockText path/to/output.lck
+Usage: binlock.py LockText path/to/output.lck
 """
 
 import sys, pathlib
