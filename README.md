@@ -28,3 +28,6 @@ By default, `binlock` will never overwrite an existing lock.
 ### What's *Really* Goin' On Here
 
 Avid's bin lock file isn't anything wild.  It's simply a `UTF-16le (No BOM)`-encoded text file, padded out to 255 characters.  But... you know... I mean... I don't know.  Maybe the script is a little bit quicker than setting up your text editor for a less-common character encoding.
+
+## You may also like
+* [`binsmith`](https://github.com/mjiggidy/binsmith) - Create Avid bins with custom settings
