@@ -1,7 +1,7 @@
 # binlock
 `binlock` will create an Avid bin lock (`.lck`) file with custom text.  This can be used to programatically create a bin lock for a given Avid user, or to "permanently" lock an Avid bin while displaying a custom message.
 
-![Permamichael bin lock](doc/permalock.png)
+![Reels locked with message](doc/lockedreels.png)
 
 ## Usage
 ### Basic Usage
